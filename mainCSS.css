@@ -1,0 +1,373 @@
+body
+{
+	font-family: 'Exo', sans-serif;
+}
+
+.background
+{
+	background: white;
+  	/*background-size: 250px;
+  	width: 720px;
+  	border: 2px solid;
+  	color: pink;*/
+  	height: 10in;
+  	background-repeat: no-repeat;
+}
+
+h1 
+{
+
+}
+
+.head
+{
+	font-size: 6em;
+	text-align: center;
+}
+
+.bod
+{
+	font-size: 3em;
+}
+
+.CSC
+{
+	font-size: 2em;
+}
+
+
+.bodRen
+{
+	font-size: 3em;
+}
+
+#iAmA
+{
+	background-image: url("images/iAmA.jpg");
+	max-width: auto;
+	max-height: auto; 
+}
+
+#msu
+{
+	background-image: url("images/iAmARH.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 950px; 
+}
+
+#reni
+{
+	background-image: url("images/iAmAren.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 950px;
+	text-align: right; 
+}
+
+#reniDefi
+{
+	background-image: url("images/iAmAreni.jpg");
+	max-width: 1050px;
+	max-height: auto;
+	background-size: 1250px; 
+}
+#nj
+{
+	background-image: url("images/iAmAnj.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 900px; 
+}
+
+#trav
+{
+	background-image: url("images/iAmAtrav.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 900px; 
+}
+
+#house
+{
+	background-image: url("images/house.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 315px; 
+}
+
+#piano
+{
+	background-image: url("images/piano.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 540px; 
+}
+
+#mma
+{
+	background-image: url("images/mma.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 340px; 
+}
+
+#parkour
+{
+	background-image: url("images/parkour.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 390px; 
+}
+
+#food
+{
+	background-image: url("images/food.jpg");
+	max-width: 950px;
+	max-height: auto;
+	background-size: 460px; 
+}
+
+#nyc
+{
+	background-image: url("images/NYC.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 560px; 
+}
+
+#pitt
+{
+	background-image: url("images/pitt.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 460px; 
+}
+
+#orl
+{
+	background-image: url("images/orl.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#atl
+{
+	background-image: url("images/atl.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 375px; 
+}
+
+#wdc
+{
+	background-image: url("images/wdc.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 305px; 
+}
+
+#lasV
+{
+	background-image: url("images/lasV.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 500px; 
+}
+
+#domR
+{
+	background-image: url("images/domR.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 450px; 
+}
+
+#bos
+{
+	background-image: url("images/bos.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#mex
+{
+	background-image: url("images/mex.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 375px; 
+}
+
+#ets
+{
+	background-image: url("images/ets.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#fse
+{
+	background-image: url("images/fse.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#strM
+{
+	background-image: url("images/strM.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#mac
+{
+	background-image: url("images/mac.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#tokyoSkyline
+{
+	background-image: url("images/GallaxyTokyo.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#romeSkyline
+{
+	background-image: url("images/GallaxyRome.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 630px; 
+}
+
+#post500
+{
+	background-image: url("images/PortfolioPageGanvas.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 892px; 
+}
+
+#blueMoon
+{
+	background-image: url("images/BlueMoon.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#coffeeIsland
+{
+	background-image: url("images/coffeeIslandWebDesignCanvas.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 600px; 
+}
+
+#ortiz
+{
+	background-image: url("images/ElSenorOrtiz.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 620px; 
+}
+
+#webDevCan
+{
+	background-image: url("images/WebDevCanvas.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 626px; 
+}
+
+#lips
+{
+	background-image: url("images/lips.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 800px; 
+}
+
+#NYCan
+{
+	background-image: url("images/WebsiteNYCanvas.jpg");
+	max-width: auto;
+	max-height: auto;
+	background-size: 800px; 
+}
+
+#ps1
+{
+	width: 1250px;
+	max-width: auto;
+	max-height: auto;
+	background-size: 100%;
+	left: 2000px;
+}
+
+#ps2
+{
+	background-image: url("images/SkylineParis.jpg");
+	width: 1000px;
+	max-width: auto;
+	max-height: auto;
+	background-size: 1000px;
+	left: 2000px;
+}
+
+.renInfo
+{
+	font-size: 20px;
+}
+
+.coverLetter
+{
+	font-size: 21px;
+}
+
+.deansList
+{
+	float: left;
+	margin-right: 52px;
+}
+
+.classes
+{
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.classWork
+{
+	font-size: 1.4em;
+	font-weight: 200;
+}
+
+.classWorkTitle
+{
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
