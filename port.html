@@ -1,285 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Developer</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="mainCSS.css">
-    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-</head>
-<body  style="background-color:     #F5F5DC;">
-    
-<div class="container-fluid" style="background-color:   #F5F5DC;">
+<!DOCTYPE html> <!-- to begin the HTML code ... @mrelirooney -->
+    <html lang="en">
+        <head>
+            <title>Mr.EliRooney</title> <!-- Tab ... @mrelirooney -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> <!-- BootStrap code...this link promotes the style sheet for images and pictures for this page... @mrelirooney -->
+            <link rel="stylesheet" type="text/css" href="port.css"> <!-- style sheet link for this page only ... @mrelirooney -->
+            <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto+Condensed" rel="stylesheet"><!-- Link for the fonts I used for this site ... @mrelirooney -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!-- BootStrap code...This link is for the functionality of Bootstrap to be present on this page ... @mrelirooney -->
+            <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> <!-- Font Awsome link... For icons and familiar mainstream logos ... @mrelirooney -->
+            <script type="text/javascript" src = "mainJS.js"></script> <!-- jQuery code...This link allows jQuery to be possible for this page ... @mrelirooney -->
+        </head>
+        <body style = "background-color: #FFFFFF;"> <!-- Background Color ... @mrelirooney -->
 
-    <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-
-        <!-- Logo -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="index.html" class="navbar-brand">E X R</a>
-        </div>
-
-        <!-- Menu Items -->
-        <div class="collapse navbar-collapse" id="mainNavBar">
-            <ul class="nav navbar-nav">
-                <li><a href="port.html">Portfolio: Developer</a></li>
-                <li><a href="portfolio.html">Portfolio: Designer</a></li>
-                <li><a href="resume.html">Cover Letter & Resume</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </div>
-
-    </div>
-</nav>
-
-<div class="row"  style="background-color:  #F5F5DC;">
-    <div class = "background col-lg-12" style="background-color:    #F5F5DC;">
-
-        <div class="row">
-            <div class="col-md-12" style="background-image: url(images/developmentHeader.jpg); background-size: 200px; padding: 70px;">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3" style="background-color: white; opacity: .66; padding: 15px;"><h1 class = "head" style = "color: black">Portfolio</h1>
-                    </div>
-                </div>
+            <div class="container-fluid"> <!-- promote bootstrap ... @mrelirooney-->
                 
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4" style="background-color: white; opacity: .66; padding: 15px;"><h1 class = "bod" style = "text-align: center; color: black">Development</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="row"> <!-- div that hold the entire home page ... @mrelirooney -->
+                    <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" style = "background-image: linear-gradient(to bottom, rgba(250,230,240,.9), rgba(10,10,10,.9));"> <!-- Keeps the entire page centered without side scrolling bars, plus gives the background color... @mrelirooney-->
+                        <!-- Header ... @mrelirooney-->
+                        <div class="row">
 
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3" style="background-color: #F5F5DC; padding: 50px;">
-                <p class = "classes" style = "text-align: center">
-                    The development page of Elijah Xavier Rooney. This is where you can find my most greatest and recent coding projects that I developed in the last few years. Feel free to explore my portfolio page.
-                </p>
-            </div>
-        </div>
+                            <!-- Hero Image ... @mrelirooney-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "homeHeroImg" style = "background-color: none; padding: 20px;">
+                                <!-- Nav Bar -->
+                                <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0,0,0,.5);">  
+                                    <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1" style="background-color: #094004; padding: 20px;">
+                                        <!-- Logo Section ... @mrelirooney-->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a href="index.html" class="navbar-brand" style = "font-family: 'Roboto Condensed', sans-serif; font-size: 20px;">EXR</a> <!-- LOGO ... @mrelirooney-->
+                                        </div> <!-- End of the Logo Section ... @mrelirooney-->
 
-                <div id = "myCarousel" class = "carousel slide">
-                    <ol class = "carousel-indicators">
-                        <li data-target = "#myCarousel" data-slide-to = "0" style = "background-color: #52bd00;" class = "active"></li>
-                        <li data-target = "#myCarousel" data-slide-to = "1" style = "background-color: #52bd00;"></li>
-                        <li data-target = "#myCarousel" data-slide-to = "2" style = "background-color: #52bd00;"></li>
-                    </ol>
+                                        <!-- Menu Items ... @mrelirooney-->
+                                        <div class="collapse navbar-collapse" id="mainNavBar">
+                                            <ul class="nav navbar-nav">
+                                                <!-- options in the Nav Bar ... @mrelirooney-->
+                                                <li><a href="resume.html">Resume</a></li> 
+                                                <li><a href="portfolio.html">Design</a></li>
+                                                <li><a href="port.html">Develop</a></li>
+                                                <li><a href="portweb.html">Websites</a></li>
+                                                <li><a href="about.html">About Me</a></li>
+                                                <li><a href="contact.html">Contact Me</a></li>
+                                                <!-- <li><a href="#">???</a></li> -->
+                                            </ul>
+                                        </div> <!-- End of Menu Items ... @mrelirooney-->
+                                    </div>
+                                </nav> <!-- End of the Nav Bar ... @mrelirooney-->
 
-                    <div class = "carousel-inner">
-
-                        <div class = "item active">
-                            <img src = "images/codeSite.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeSite1.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeSite2.jpg" alt = "demo" class = "img-responsive">
-                        </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0" style="background-color: none; padding-top: 494px; padding-bottom: 0px;">
+                                        <h1 class = "headSub">Developer</h1>
+                                        <h1 class = "head">Portfolio</h1>  
+                                    </div>
+                                </div>
+                            </div> <!-- End of the Hero ... @mrelirooney-->
+                        </div> <!-- End of Header ... @mrelirooney-->
                         
-                    </div>
-                </div>
+                            <!-- Content and Panels ... @mrelirooney-->
+                        <div class="row">
+                            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0" id = "html" style="background-color: rgba(255,255,255,1); padding: 10px; padding-top: 400px;">
+                                <h1 class = "content">HTML and Bootstrap: the Footer of the resume site</h1>
+                            </div>
 
-            </div>
+                            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0" id = "css" style="background-color: rgba(255,255,255,.9); padding: 10px; padding-top: 400px;"><h1 class = "content">CSS: The Hero for my Mock Time Square Website</h1>  
+                            </div>
 
-            <div class="col-md-5" style="background-color: #52bd00; padding: 10px;">
-                <h1 class = "reg"> (Home Page) {</h1>
-                <p class = "classes" style = "padding-left: 30px"> [ [HTML5] [Bootstrap] [CSS3] [Sublime Text 3] ] {</p>
-                <p class = "classes" style = "padding-left: 60px; padding-right: 10px">
-                    There was plenty of trial and error to figure out what languages work well with other. I take pleasure in maintaining my portfolio site, but more eagar to learn the skills of web development. My education and passion started in my Internet Computing course at Montclair State University, Spring 2017. Since then, I reseached twice as much web development information on my own free time. I delve through different sources and locations, such as Google, YouTube, W3Schools, and other modern websites, for information and inspiration. 
-                </p>
-                <p class = "classes" style = "padding-left: 30px; padding-right: 10px"" >
-                    } These images are presenting the codes and the GUI of the home page's header and nav-bar at the top. 
-                </p>
-                <h1 class = "reg"> } </h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3" style="background-color:     #F5F5DC; padding: 40px;">
-                <h1 class = "reg"> I have knowledge and experience with front-end web development, as well as back-end development... </h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1" style="background-color: #52bd00; padding: 10px;">
-                <h1 class = "reg"> (Deli Swift) {</h1>
-                <p class = "classes" style = "padding-left: 30px"> [ [HTML5] [PHP] [MySQL] [phpMyAdmin] [Cyan] ] {</p>
-                <p class = "classes" style = "padding-left: 60px; padding-right: 10px">
-                    What if there was an online convenience store. Instead of walking to the nearest 7-eleven, Dollar Tree, or Bodega, you can simply shop for Doritos and Mountain Dew from the comfort of your own home. Deli Swift is that ecommerce website where you can purchase your favorite treats and snacks. This was a project assigned in class. Collaborated with a fellow peer to design basic html, php, and databases for this website. This site offers different views: Admin, Manager, Employee, and customer. This website offers features such as Sign-Up, Login, Shopping Cart, Inventory Manipulation, and Receipts.
-                </p>
-                <p class = "classes" style = "padding-left: 30px; padding-right: 10px">
-                    } These are pictures show the ecommerce site, its code, and its database. 
-                </p>
-                <h1 class = "reg"> } </h1>
-            </div>
-
-            <div class="col-md-5 " style="background-color: #094004; padding: 20px;">
-
-                <div id = "myCarousel1" class = "carousel slide">
-                    <ol class = "carousel-indicators">
-                        <li data-target = "#myCarousel1" data-slide-to = "0" style = "background-color: #52bd00;" class = "active"></li>
-                        <li data-target = "#myCarousel1" data-slide-to = "1" style = "background-color: #52bd00;"></li>
-                        <li data-target = "#myCarousel1" data-slide-to = "2" style = "background-color: #52bd00;"></li>
-                    </ol>
-
-                    <div class = "carousel-inner">
-
-                        <div class = "item active">
-                            <img src = "images/codeDeli.jpg" alt = "demo" class = "img-responsive">
+                            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0" id = "jquery" style="background-color: rgba(255,255,255,.9); padding: 10px; padding-top: 400px;"><h1 class = "content">jQuery: for my Mock Time Square Website</h1>  
+                            </div>
                         </div>
-
-                        <div class = "item">
-                            <img src = "images/codeDeli1.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeDeli2.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-                        
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12" style="background-color:     #F5F5DC; padding: 30px;">
-                <h1 class = "reg" style = "text-align: center"> Nothing is more satisfying to me than helping others... </h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1" style="background-color: #094004; padding: 20px;">
-
-                <div id = "myCarousel2" class = "carousel slide">
-                    <ol class = "carousel-indicators">
-                        <li data-target = "#myCarousel2" data-slide-to = "0" style = "background-color: #52bd00;" class = "active"></li>
-                        <li data-target = "#myCarousel2" data-slide-to = "1" style = "background-color: #52bd00;"></li>
-                        <li data-target = "#myCarousel2" data-slide-to = "2" style = "background-color: #52bd00;"></li>
-                    </ol>
-
-                    <div class = "carousel-inner">
-
-                        <div class = "item active">
-                            <img src = "images/codeHci.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeHci1.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeHci2.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-                        
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-md-5" style="background-color: #52bd00; padding: 10px;">
-                <h1 class = "reg"> (Res) {</h1>
-                <p class = "classes" style = "padding-left: 30px"> [ [Google Docs] [Photobooth] [Axure] ] {</p>
-                <p class = "classes" style = "padding-left: 60px; padding-right: 10px">
-                    Did you fail to realize yet another Jazz concert in your area for the third time this month? Well you should look into an application called Res. This application was thought of and created for the social, and not so social, birds looking for events, parties, and conferences to attend. This was a project assigned and worked on in my Human-Computer Interaction course. My team and I were responsible for coming up with an application idea that would help the lives of others. In this process we chose a very specific demographic, collected real data from the demographic, discovered a very common specific problem of such a demographic, and worked on how to solve the problems through an app. We also researched other phone applications and websites to obtain inspiration for Res. We went through the entire application creating process except for coding the application itself. 
-                </p>
-                <p class = "classes" style = "padding-left: 30px; padding-right: 10px">
-                    } Images of Problem and Context Scenarios, and a GUI of how the home page and live feed of Res would look like.
-                </p>
-                <h1 class = "reg"> } </h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2" style="background-color:     #F5F5DC; padding: 30px;">
-                <h1 class = "reg" style = "text-align: center"> I can never forget the fundementals of development. My early achievements are what motivates me to keep programing... </h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1" style="background-color: #52bd00; padding: 10px;">
-                <h1 class = "reg"> (8Bit Goku) {</h1>
-                <p class = "classes" style = "padding-left: 30px"> [ [Java] [jGrasp] ] {</p>
-                <p class = "classes" style = "padding-left: 60px; padding-right: 10px">
-                    Java seemed like a foriegn language that I could not understand back in my second year of college. I struggled trying to learn all the classes and methods. But nothing came any eaiser to me than JApplets and GUI's. The artist in me found a moment of relief and success when I discovered a way to use for-loops to create an image, piece by piece. Each for-loop has a counter; when a loop counts to the limit, a small square would appear. Then the next loop would go through the same process to show a different square. Over 4500 lines worth of for-loops perform this action linerally until the whole picture is produced. I presented this as a final project in my Fundemental of Programming Languages 1 course and blew everyone away. After my presentation, I felt as if developing code was do-able.
-                </p>
-                <p class = "classes" style = "padding-left: 30px; padding-right: 10px">
-                    } 4598 lines of java code to produce the world's greatest Sayin Warrior Goku.
-                </p>
-                <h1 class = "reg"> } </h1>
-            </div>
-
-            <div class="col-md-5" style="background-color: #094004; padding: 20px;">
-
-                <div id = "myCarousel3" class = "carousel slide">
-                    <ol class = "carousel-indicators">
-                        <li data-target = "#myCarousel3" data-slide-to = "0" style = "background-color: #52bd00;" class = "active"></li>
-                        <li data-target = "#myCarousel3" data-slide-to = "1" style = "background-color: #52bd00;"></li>
-                        <li data-target = "#myCarousel3" data-slide-to = "2" style = "background-color: #52bd00;"></li>
-                    </ol>
-
-                    <div class = "carousel-inner">
-
-                        <div class = "item active">
-                            <img src = "images/codeGoku.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeGoku1.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-
-                        <div class = "item">
-                            <img src = "images/codeGoku2.jpg" alt = "demo" class = "img-responsive">
-                        </div>
-                        
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3" style="background-color:     #F5F5DC; padding: 60px;">
-                <p class = "classes" style = "text-align: center">Hope you found my development portfolio page appealing and informative.</p>
-            </div>
-        </div>
-
-        <div class="row" style="background-color: black; border-right: #AE9898 2px solid; color: #AE9898;  opacity: .75;">
-            <div class = "col-md-2" style="padding: 5px;"><h1 class = "reg">
-                Contact Me</h1>     
-            </div>
-            <div class="col-md-2" style="padding: 5px; border-right: #AE9898 2px solid; border-left: #AE9898 2px solid; color: #AE9898;">
-                <i class="fas fa-phone-square fa-3x"></i>
-                <p>(718)909-3871</p>     
-            </div>
-            <div class="col-md-2" style="padding: 5px; border-right: #AE9898 2px solid; color: #AE9898;"><i class="fas fa-envelope-square fa-3x"></i>
-                <p>mrexr2014@gmail.com</p>     
-            </div>
-            <a href="https://www.linkedin.com/in/elijah-rooney-b9701b14a/">
-                <div class="col-md-2" style="padding: 5px; border-right: #AE9898 2px solid; color: #AE9898;">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                    <p>LinkedIn Profile</p>
-                </div>
-            </a>
-        </div>
-
-    </div>
+                        <!-- End of Content and Panels ... @mrelirooney -->
 
 
-</body>
-</html>
+                        <!-- Footer -->
+                        <div class="row" id = "footer" style="background-color: rgba(0,0,0,.7); padding: 20px; font-family: 'Nanum Gothic', sans-serif;">
+                            <div class="col-xs-10 col-xs-offset-0 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1" style="background-color: none; padding: 10px;"> <!-- Links in the Footer below ... @mrelirooney -->
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="resume.html"><p class = "footerContentA">Resume</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="portfolio.html"><p class = "footerContentA">Design</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="port.html"><p class = "footerContentA">Develop</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="portweb.html"><p class = "footerContentA">Websites</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="about.html"><p class = "footerContentA">Contact</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="contact.html"><p class = "footerContentA">About</p></a>
+                                </div>
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+                                <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <p class = "footerContentB">mrexr2014@gmail.com</p>
+                                </div> 
+                                <div class="col-xs-6 col-xs-offset-0 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-2 col-lg-offset-2">
+                                    <p class = "footerContentB">1(718)9093871</p>
+                                </div> 
+                                <div class="col-xs-6 col-xs-offset-0 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <p class = "footerContentB">@mrelirooney</p>
+                                </div> 
+                                <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <a href="https://www.linkedin.com/in/elijah-rooney-b9701b14a/"><i id = "linkedIn" class="fab fa-linkedin fa-2x"></i></a> <!-- Link to my Linkedin ... @mrelirooney -->
+                                </div>
+                                <div class="col-xs-2 col-xs-offset-0 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <a href="https://github.com/EliRooney"><i id = "gitHub" class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            </div>
+                            <div class="row" style="background-color: none; padding: 5px;">
+                                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                                    <p class = "footerContentA">EXR &copy 2019</p>
+                                    <p class = "footerContentA">Website Coded by Mr.EliRooney</p>  
+                                </div>
+                            </div>
+                        </div> <!-- End of the Footer ... @mrelirooney-->
+                    </div> <!-- end of the background color ... @mrelirooney -->
+                </div> <!-- end of the homepage holder ... @mrelirooney -->
+            </div>  <!-- End of the container-fluid ... @mrelirooney -->
+        </body> <!-- End of the Body ... @mrelirooney -->
+</html> <!-- the end of the HTML code ... @mrelirooney -->

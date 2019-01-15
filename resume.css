@@ -1,0 +1,252 @@
+#homeHeroImg
+{
+  background-image: url("images/resHero.png"); /* Photo that I took with a Canon and Edited in Adobe Lightroom ... @mrelirooney */
+  max-width: 100%;
+  max-height: 100%; 
+  background-size: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.head
+{
+  /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,.9), rgba(255,255,255,1), rgba(255,255,255,.9), rgba(255,255,255,0));*/
+  padding-bottom: 1px;
+  padding-top: 5px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 6em;
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.headSub
+{
+  /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,.9), rgba(255,255,255,1), rgba(255,255,255,.9), rgba(255,255,255,0));*/
+  padding-bottom: 1px;
+  padding-top: 4px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content
+{
+  color: rgba(0,0,0,.9);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,.9), rgba(255,0,0,0));;
+  margin: 1px;
+  padding-bottom: 15px;
+  padding-top: 1px;
+  padding-right: 6px;
+  padding-left: 2px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer
+{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,.05), rgba(0,0,0,1));;
+}
+
+.footerContentA
+{
+  color: rgba(255,255,255,.5);
+  text-decoration-color: rgba(255,255,255,.8);
+  text-align: center;
+  padding-top: 7px;
+}
+
+.footerContentB
+{
+  color: rgba(255,255,255,.5);
+  text-decoration-color: rgba(255,255,255,.8);
+  text-align: center;
+  padding-top: 16px;
+}
+
+#gitHub
+{
+  color: rgba(255,255,255,.5);
+}
+
+#linkedIn
+{
+  color: rgba(255,255,255,.5);
+}
+
+#resumeSheet
+{
+  background-image: url(images/resumeSheet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0px solid rgba(255,255,255,.3);
+  opacity: 1;
+  padding-top: 99%;
+  padding-bottom: 4%;
+  background-size: 100%;
+}
+
+#html, #css, #botstrap, #jQuery, #php, #javaScript, #vue, #angular, #aws, #wordPress, #git, #linux, #java, #python, #office, #docs, #photoshop, #lightroom, #afterEffects, #illustrator
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0px solid rgba(255,255,255,.3);
+  opacity: .9;
+}
+
+#html
+{
+  background-image: url("images/htmlLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#css
+{
+  background-image: url("images/cssLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#botstrap
+{
+  background-image: url("images/bootstrapLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#jQuery
+{
+  background-image: url("images/jqLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#php
+{
+  background-image: url("images/phpLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#javaScript
+{
+  background-image: url("images/jsLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#vue
+{
+  background-image: url("images/vueLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#angular
+{
+  background-image: url("images/angularLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#aws
+{
+  background-image: url("images/awsLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#wordPress
+{
+  background-image: url("images/wpLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#git
+{
+  background-image: url("images/gitLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#linux
+{
+  background-image: url("images/ubuntuLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#java
+{
+  background-image: url("images/javaLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#python
+{
+  background-image: url("images/pythonLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#office
+{
+  background-image: url("images/msLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#docs
+{
+  background-image: url("images/docsLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#photoshop
+{
+  background-image: url("images/psLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#lightroom
+{
+  background-image: url("images/lrLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#afterEffects
+{
+  background-image: url("images/aeLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+#illustrator
+{
+  background-image: url("images/aiLogo-2.jpg"); 
+  background-size: 100%;
+}
+
+.message
+{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.9), rgba(0,0,0,.9), rgba(0,0,0,0));
+  color: rgba(250,250,250,1);
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-left: 0px;
+  padding-top: .5px;
+  padding-bottom: 10px;
+}
+
+li
+{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+h2
+{
+
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
+  color: rgba(0,0,0,.9);
+}
+
+
+.emptySpace
+{
+  color: white;
+  text-align: center;
+}
